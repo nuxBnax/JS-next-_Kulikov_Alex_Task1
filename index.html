@@ -61,7 +61,7 @@
         const paragraphEl = document.createElement('p')
         paragraphEl.textContent = 'Привет';
         const cardEl = document.querySelector('.card');
-        cardEl.appendChild(paragraphEl);
+        cardEl.prepend(paragraphEl);
 
         const elemtnH6 = document.querySelector('h6');
         elemtnH6.remove();
